@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+    <h1>☀️ Weather Dashboard</h1>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Search city..." />
+      <button onclick="getWeather()">Search</button>
+    </div>
+    <div id="weatherCard" class="weather-card hidden"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
